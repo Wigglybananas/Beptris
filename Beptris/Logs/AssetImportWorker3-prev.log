@@ -15,7 +15,7 @@ C:/Users/2200726/Documents/Beptris/Beptris
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-55997
+57008
 Successfully changed project path to: C:/Users/2200726/Documents/Beptris/Beptris
 C:/Users/2200726/Documents/Beptris/Beptris
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/2200726/Documents/Beptris/Beptris
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [528] Host "[IP] 10.16.17.142 [Port] 0 [Flags] 2 [Guid] 1907612573 [EditorId] 1907612573 [Version] 1048832 [Id] WindowsEditor(7,WB0140XS-57911D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14116] Host "[IP] 10.16.17.142 [Port] 0 [Flags] 2 [Guid] 3322047685 [EditorId] 3322047685 [Version] 1048832 [Id] WindowsEditor(7,WB0140XS-57911D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [528] Host "[IP] 10.16.17.142 [Port] 0 [Flags] 2 [Guid] 1907612573 [EditorId] 1907612573 [Version] 1048832 [Id] WindowsEditor(7,WB0140XS-57911D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14116] Host "[IP] 10.16.17.142 [Port] 0 [Flags] 2 [Guid] 3322047685 [EditorId] 3322047685 [Version] 1048832 [Id] WindowsEditor(7,WB0140XS-57911D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 18.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 18.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007769 seconds.
-- Loaded All Assemblies, in  0.323 seconds
+Registered in 0.009150 seconds.
+- Loaded All Assemblies, in  0.326 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.223 seconds
-Domain Reload Profiling: 543ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.238 seconds
+Domain Reload Profiling: 563ms
+	BeginReloadAssembly (100ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (126ms)
-		LoadAssemblies (97ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (98ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (119ms)
-			TypeCache.Refresh (118ms)
-				TypeCache.ScanAssembly (107ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (104ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (223ms)
+	FinalizeReload (239ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (174ms)
+		SetupLoadedEditorAssemblies (188ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (117ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,51 +116,51 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\2200726\Documents\Beptris\Beptris\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\2200726\Documents\Beptris\Beptris\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.656 seconds
-Refreshing native plugins compatible for Editor in 8.56 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.820 seconds
+Refreshing native plugins compatible for Editor in 8.59 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.432 seconds
-Domain Reload Profiling: 1084ms
-	BeginReloadAssembly (122ms)
+- Finished resetting the current domain, in  0.562 seconds
+Domain Reload Profiling: 1379ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (456ms)
-		LoadAssemblies (309ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (366ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (209ms)
-			TypeCache.Refresh (192ms)
-				TypeCache.ScanAssembly (180ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (432ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (272ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (562ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (315ms)
+		SetupLoadedEditorAssemblies (412ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (210ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 8.56 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 9.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3939 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (244.9 KB). Loaded Objects now: 4397.
-Memory consumption went from 136.9 MB to 136.7 MB.
-Total: 4.118000 ms (FindLiveObjects: 0.517500 ms CreateObjectMapping: 0.165300 ms MarkObjects: 3.224400 ms  DeleteObjects: 0.209300 ms)
+Unloading 69 unused Assets / (244.5 KB). Loaded Objects now: 4397.
+Memory consumption went from 137.0 MB to 136.7 MB.
+Total: 5.995100 ms (FindLiveObjects: 0.462300 ms CreateObjectMapping: 0.462800 ms MarkObjects: 4.782100 ms  DeleteObjects: 0.286200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -169,407 +169,32 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 98880.894243 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_block1_7.png
-  artifactKey: Guid(00b6de2ecffad6a4b87de41c60c1ce98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_block1_7.png using Guid(00b6de2ecffad6a4b87de41c60c1ce98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '01544bec1b1aa94f1fddf1bbcadb34f4') in 0.119591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_O1_2.png
-  artifactKey: Guid(ca2507f145871e048a1483a3cddb5789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_O1_2.png using Guid(ca2507f145871e048a1483a3cddb5789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '338523c77663134f3ad9e04bdcbc7d2a') in 0.012819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_T2_4.png
-  artifactKey: Guid(4582334ef47a43d41be6fb366e3d871c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_T2_4.png using Guid(4582334ef47a43d41be6fb366e3d871c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fd71dad237056b348c1ca403f3c5e8e5') in 0.013006 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_S2_1.png
-  artifactKey: Guid(37ce92d73a1f785449515eca7b277915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_S2_1.png using Guid(37ce92d73a1f785449515eca7b277915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f5cc55c7666f80a9e3c508507e3e3f9c') in 0.015127 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_block2_6.png
-  artifactKey: Guid(2f34c2431bdbba342a10564fefcffbf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_block2_6.png using Guid(2f34c2431bdbba342a10564fefcffbf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5219ff52e68a0b7c5bd26b83ab33a5ce') in 0.012759 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assests/Tetrominoes/Border.png
-  artifactKey: Guid(a17f2463dcf69f543917314f552990b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Border.png using Guid(a17f2463dcf69f543917314f552990b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2bbfdd2afc8e1949215b837834826348') in 0.013003 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_block2_5.png
-  artifactKey: Guid(6db03f618ed099741ac009de394ff51d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_block2_5.png using Guid(6db03f618ed099741ac009de394ff51d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8534d11043efc9bcf80ce8d60609dfd0') in 0.014688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_J2_4.png
-  artifactKey: Guid(d8421aee9d0fcc04c9197a437bca4333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_J2_4.png using Guid(d8421aee9d0fcc04c9197a437bca4333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '265c4be0b93715f5bcf4903622c18396') in 0.012461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.429387 seconds.
-  path: Assets/Assests/Tetrominoes/Pattern02.png
-  artifactKey: Guid(d381c49362501cd40810643cbcf26949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Pattern02.png using Guid(d381c49362501cd40810643cbcf26949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b4c2995b3eb138809ac56d9d414c65') in 0.072803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_L2_1.png
-  artifactKey: Guid(b003a085abd28764bbba509fdf600f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_L2_1.png using Guid(b003a085abd28764bbba509fdf600f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49376da6a6ab71e2521ad75f7e8f0ec') in 0.009371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_T2_3.png
-  artifactKey: Guid(dc822179dd1f3564baede96bec0be3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_T2_3.png using Guid(dc822179dd1f3564baede96bec0be3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2f51d78c67285a34c2c7a09feac0af') in 0.010178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_I2_1.png
-  artifactKey: Guid(8acc0602d3775cb43a9873fea494ef54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_I2_1.png using Guid(8acc0602d3775cb43a9873fea494ef54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47606e272230f8183576833a22e4f3a') in 0.009579 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_block2_1.png
-  artifactKey: Guid(89b67086ddffa5b47a50d5ae557d0be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_block2_1.png using Guid(89b67086ddffa5b47a50d5ae557d0be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f510c491b89930ea76277f2a012a1b85') in 0.008977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_J2_2.png
-  artifactKey: Guid(938ccaf6494224e458713b6beaaf80ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_J2_2.png using Guid(938ccaf6494224e458713b6beaaf80ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac21601a77729c8d570a72b79fe1ea46') in 0.009886 seconds
+  Time since last request: 104868.997417 seconds.
+  path: Assets/Tiles/Green.asset
+  artifactKey: Guid(81f444b4807d22e419f3d99f2cb8f828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Green.asset using Guid(81f444b4807d22e419f3d99f2cb8f828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a99dabdc973e8380eb314363cc3c0c7') in 0.076668 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_T1_3.png
-  artifactKey: Guid(16d65402534670e4f93730e0561e6122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_T1_3.png using Guid(16d65402534670e4f93730e0561e6122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f4c0b3c142e3bf3b5d710a6549802d') in 0.010168 seconds
+  path: Assets/Tiles/Red.asset
+  artifactKey: Guid(86c5eba0c7315924b8a1afa8af490236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Red.asset using Guid(86c5eba0c7315924b8a1afa8af490236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe43fce579900494c1db734546f93c0') in 0.008392 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_I1_2.png
-  artifactKey: Guid(be69d70f461a7dc40b3df94c236a32d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_I1_2.png using Guid(be69d70f461a7dc40b3df94c236a32d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbda2f70a63a17f2085bd32dc77a01b') in 0.008493 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_L2_3.png
-  artifactKey: Guid(e064efa7818130946a762d3773314641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_L2_3.png using Guid(e064efa7818130946a762d3773314641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf224b2885d2870f5f79d82e74312c68') in 0.009197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_J1_4.png
-  artifactKey: Guid(63a70d3da13de24448525c93d39289bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_J1_4.png using Guid(63a70d3da13de24448525c93d39289bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395628d5cf896207796fd42c58b27b51') in 0.008243 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_T2_4.png
-  artifactKey: Guid(4582334ef47a43d41be6fb366e3d871c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_T2_4.png using Guid(4582334ef47a43d41be6fb366e3d871c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b17a2b918b443dcca0c61308b0b91ca') in 0.009421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_block1_2.png
-  artifactKey: Guid(8d849e4c60ae3244f974b8c48b5349b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_block1_2.png using Guid(8d849e4c60ae3244f974b8c48b5349b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c352bb70bbbbd72d0557014f9a06b6fb') in 0.009483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_L1_2.png
-  artifactKey: Guid(27dd15e042cc2964cab47e4dfce1192a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_L1_2.png using Guid(27dd15e042cc2964cab47e4dfce1192a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b17608f06300938805dd2ac8129bce2') in 0.009065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_block2_3.png
-  artifactKey: Guid(69c6360a1e4c7dd4898539f3cd2fb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_block2_3.png using Guid(69c6360a1e4c7dd4898539f3cd2fb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87920e8d8ade522826a9457bee6de96e') in 0.008715 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_Z2_2.png
-  artifactKey: Guid(f5a59a93b33b862409848efc227863ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_Z2_2.png using Guid(f5a59a93b33b862409848efc227863ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48613ecacbbeaa6c82152f226b74df4b') in 0.008438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 14.730902 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_block2_7.png
-  artifactKey: Guid(24af8afbcacf47644b36204d6b40968b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_block2_7.png using Guid(24af8afbcacf47644b36204d6b40968b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e1a2bcb41793473fdc6b980d499355') in 0.009455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_O1_2.png
-  artifactKey: Guid(ca2507f145871e048a1483a3cddb5789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_O1_2.png using Guid(ca2507f145871e048a1483a3cddb5789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8d872b7c868a9cf6e0e51e9fadb40e') in 0.007408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_J1_3.png
-  artifactKey: Guid(59d6fa86e1474fe4e88553f54f9d4d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_J1_3.png using Guid(59d6fa86e1474fe4e88553f54f9d4d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa98f05b66f1fc6fa5659eb810b7b57c') in 0.008392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_S2_1.png
-  artifactKey: Guid(37ce92d73a1f785449515eca7b277915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_S2_1.png using Guid(37ce92d73a1f785449515eca7b277915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4e2ecc78ef114c6571b2e07206fa49') in 0.007810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_J2_2.png
-  artifactKey: Guid(938ccaf6494224e458713b6beaaf80ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_J2_2.png using Guid(938ccaf6494224e458713b6beaaf80ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1e4f5a9055be35f8458ad06d6c273a') in 0.008019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_T2_2.png
-  artifactKey: Guid(7f44094395e2cba449e5627e7b630100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_T2_2.png using Guid(7f44094395e2cba449e5627e7b630100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f49a69a90fb3965d9284d37174e8ed') in 0.008710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_L2_3.png
-  artifactKey: Guid(e064efa7818130946a762d3773314641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_L2_3.png using Guid(e064efa7818130946a762d3773314641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ac40de5f786945fe00512dc6637bd4') in 0.009203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_J1_1.png
-  artifactKey: Guid(34c8b3c466158bf438562e1c85048914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_J1_1.png using Guid(34c8b3c466158bf438562e1c85048914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e55dd243606fe63710146427b6ef22f') in 0.007068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_O1_1.png
-  artifactKey: Guid(5dfbb01115386d241af914fa2118cabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_O1_1.png using Guid(5dfbb01115386d241af914fa2118cabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cc10a4c8a8850c8dba63b2aacaa712') in 0.008547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_T2_1.png
-  artifactKey: Guid(8807729ee2fb6a64eaa72dcc7ffd3bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assests/Tetrominoes/Tetromino_T2_1.png using Guid(8807729ee2fb6a64eaa72dcc7ffd3bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85e7cd8641d9464b0a753ce9795586c') in 0.008180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.872419 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_block2_2.png
-  artifactKey: Guid(650845b53d6c45947b166b6841ffe7dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_block2_2.png using Guid(650845b53d6c45947b166b6841ffe7dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5f1f620d11e86966392726fc1ec54630') in 0.012089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_L2_1.png
-  artifactKey: Guid(b003a085abd28764bbba509fdf600f59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_L2_1.png using Guid(b003a085abd28764bbba509fdf600f59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6c9dd4517937a69f9c491cbb1a3b8ff9') in 0.014422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_J1_2.png
-  artifactKey: Guid(a2292bc96920a9640acd9afa68cb12fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_J1_2.png using Guid(a2292bc96920a9640acd9afa68cb12fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5c5de069b13f8d3344acecf4d5b54d0d') in 0.011410 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_J1_4.png
-  artifactKey: Guid(63a70d3da13de24448525c93d39289bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_J1_4.png using Guid(63a70d3da13de24448525c93d39289bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e0518edd6367ef6004abb67ff16345ca') in 0.012473 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_O1_2.png
-  artifactKey: Guid(ca2507f145871e048a1483a3cddb5789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_O1_2.png using Guid(ca2507f145871e048a1483a3cddb5789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9810e240c2470259a949561e27b3c321') in 0.013326 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_Z2_1.png
-  artifactKey: Guid(72e3c0ea9659eba4493160361b738e96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_Z2_1.png using Guid(72e3c0ea9659eba4493160361b738e96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '960089b98a172da2931f50e3d3584c3d') in 0.012203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_I1_1.png
-  artifactKey: Guid(b3c18f8d747a4eb4d9be19c960881d1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_I1_1.png using Guid(b3c18f8d747a4eb4d9be19c960881d1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c110a61b5d14911889f5ef3745e103db') in 0.013318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assests/Tetrominoes/Pattern01.png
-  artifactKey: Guid(f720da13e7818f2458febb3e9bfb84a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Pattern01.png using Guid(f720da13e7818f2458febb3e9bfb84a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1c4a698408dd135d2c68030f8e73b001') in 0.013557 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_block2_4.png
-  artifactKey: Guid(1861d1fd289f5a44bb654a0f3f02ed3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_block2_4.png using Guid(1861d1fd289f5a44bb654a0f3f02ed3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2910b10fc4201e5d425f17e29e699269') in 0.012160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_S1_2.png
-  artifactKey: Guid(18dcc44a4bf7d544480298a715bdef0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_S1_2.png using Guid(18dcc44a4bf7d544480298a715bdef0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8553e866c8d899b4f8deb6e31161947d') in 0.011819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_I2_1.png
-  artifactKey: Guid(8acc0602d3775cb43a9873fea494ef54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_I2_1.png using Guid(8acc0602d3775cb43a9873fea494ef54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '302a54d7814b6fc90dad1841b45c3e8c') in 0.013518 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_T1_4.png
-  artifactKey: Guid(1fdf3a14a879e7046bba0c9329d9656c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_T1_4.png using Guid(1fdf3a14a879e7046bba0c9329d9656c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f5658b76c2ee03e4dd97771b16fface7') in 0.012751 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_L1_3.png
-  artifactKey: Guid(cee810eedeb12d445a6c80261943f400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_L1_3.png using Guid(cee810eedeb12d445a6c80261943f400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0c7c382fd04bd587c338d098ae798911') in 0.010853 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assests/Tetrominoes/Tetromino_block2_3.png
-  artifactKey: Guid(69c6360a1e4c7dd4898539f3cd2fb939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Assests/Tetrominoes/Tetromino_block2_3.png using Guid(69c6360a1e4c7dd4898539f3cd2fb939) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9542af00ba57ffc3e0bae934bd4420f1') in 0.012129 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tiles/Yellow.asset
+  artifactKey: Guid(48ef09726cabe654a8a077292f3f0559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Yellow.asset using Guid(48ef09726cabe654a8a077292f3f0559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81db0d8be2b81079075fb433d5c9c16b') in 0.004959 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
